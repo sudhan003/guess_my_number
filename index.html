@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <section class="header">
+        <button class="btn again" >Again</button>
+        <h4>(Between 1 to 20)</h4>
+      </section>
+      <section class="title">
+        <h1>Guess My Number</h1>
+      </section>
+    </header>
+    <main>
+      <section class="divider">
+    
+          <h1 class="secret-number">?</h1>
+        
+        <hr />
+      </section>
+      <section class="user">
+        <div class="user input">
+          <input type="number" name="number" id="number" />
+          <button class="btn check"><h4>check</h4></button>
+        </div>
+        <div class="user score">
+          <h1 class="message">Start guessing...</h1>
+          <p class="score">🥊 Score: <span class="score value">20</span></p>
+          <p class="high-score">
+            🎖️High Score: <span class="high-score value">0</span>
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
